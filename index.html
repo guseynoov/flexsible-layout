@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css/style.css">
+	<title>Layout</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo">KG Shop</div>
+			<nav class="navigation">
+				<a href=""> <i class="fas fa-home"></i>Home</a>
+				<a href=""> <i class="fas fa-gamepad"></i>Games</a>
+				<a href=""> <i class="fas fa-store"></i>Store</a>
+				<a href=""> <i class="far fa-newspaper"></i> New</a>
+				<!--<a href="">Link5</a>-->
+			</nav>
+			<button><i class="fas fa-door-open"></i> Login</button>
+		</header>
+		<div class="content">
+			<p class="new-g">Latest Sales</p>
+			<div class="cards">
+				<i class="fas fa-chevron-circle-left"></i>
+				<div class="card">
+					<a href="#"><img class="Witcher" src="./img/header/TheWitcher3.jpg" alt=""></a>
+					<span class="game_text">The Witcher 3</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="cyberpunk" src="./img/header/Cyberpunk2077.jpg" alt=""></a>
+					<span class="game_text">Cyberpunk 2077</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="reddead" src="./img/header/RedDeadRedemtion2.jpg" alt=""></a>
+					<span class="game_text">Red Dead Redemtion 2</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="darksouls3" src="./img/header/DarkSouls3.jpg" alt=""></a>
+					<span class="game_text">Dark Souls 3</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="fallout4" src="./img/header/Fallout4GOTY.jpg" alt=""></a>
+					<span class="game_text">Fallout 4</span>
+				</div>
+				<i class="fas fa-chevron-circle-right"></i>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="leftside">
+				<div class="leftside_top">
+					<div class="leftside__header">CATALOG</div>
+					<ul class="leftside__list">
+						<li>Assassin's creed</li>
+						<li>Battlefield</li>
+						<li>Call of Duty</li>
+						<li>Need for Speed</li>
+						<li>Tom Clancy's</li>
+						<li>Splinter Cell</li>
+						<li>Forza Horizon</li>
+						<li>The Elder Scrolls</li>
+					</ul>
+				</div>
+				<div class="leftside_botom">
+					<div class="leftside__header">CATEGORY</div>
+					<div class="leftside__list">
+						<input class="category" type="checkbox" name="category" id=""> Zombie <i class="fas fa-biohazard"></i> <br>
+						<input class="category" type="checkbox" name="category" id=""> Race <i class="fas fa-flag-checkered"></i> <br>
+						<input class="category" type="checkbox" name="category" id=""> Simulator<i class="fas fa-glasses"></i> <br>
+						<input class="category" type="checkbox" name="category" id=""> Open World <i class="fas fa-globe-americas"></i> <br>
+						<input class="category" type="checkbox" name="category" id=""> Survival <i class="fas fa-drumstick-bite"></i> <br>
+					</div>
+				</div>
+			</div>
+			<div class="rightside">
+				<div class="navigation-panel">
+					<form action="#">
+						<div class="search">
+							<i class="fas fa-search"></i>
+							<input class="search_input" type="text">
+						</div>
+					</form>
+					<form action="#">
+						<div class="value">
+							<i class="fas fa-dollar-sign"></i>
+							<input class="value_input" type="number" min="1">
+						</div>
+					</form>
+				</div>
+				<div class="games-topline">
+					<div class="game_right">
+						<a href="#"><img class="Skyrim" src="./img/header/Skyrim.jpg" alt=""></a>
+						<span class="game_text">The Elder Scrolls: Skyrim</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="assasin" src="./img/header/AC4.jpg" alt=""></a>
+						<span class="game_text">Assassin's Creed 4 Black Flag</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="gta" src="./img/header/Gta5.jpg" alt=""></a>
+						<span class="game_text">Grand Theft Auto V</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="Metro" src="./img/header/Metro Exodus.jpg" alt=""></a>
+						<span class="game_text">Metro EXODUS</span>
+					</div>
+				</div>
+				<div class="games-buttonline">
+					<div class="game_right">
+						<a href="#"><img class="valhala" src="./img/header/valqala-main.jpg" alt=""></a>
+						<span class="game_text">Assassin's Creed Valhalla</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="rainbow" src="./img/header/RainbowSixSiege.jpg" alt=""></a>
+						<span class="game_text">Rainbow Six Siege</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="doom" src="./img/header/DoomEternal.jpg" alt=""></a>
+						<span class="game_text">DOOM Eternal</span>
+					</div>
+					<div class="game_right">
+						<a href="#"><img class="ResEvil" src="./img/header/ResidentEvil8.jpg" alt=""></a>
+						<span class="game_text">Resident Evil VILLAGE</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+			<footer class="footer">
+					<div class="footer-top">
+						<p><i class="fas fa-cogs"></i> Guaranteed technical support for your purchase</p>
+						<p><i class="fas fa-percent"></i> Regular promotions, discounts and bonuses</p>
+						<p><i class="fas fa-key"></i> License keys from official publishers</p>
+						<p><i class="fas fa-comments"></i> Positive feedback from real customers</p>
+					</div>
+					<div class="footer-down">
+
+					</div>
+
+
+
+			</footer>
+		
+	
+	
+	</div>
+</body>
+
+</html>
